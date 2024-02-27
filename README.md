@@ -3,6 +3,7 @@
 
 클론코딩 >> 개발자 정대리 Nest JS 뽀개기 강의
    - https://www.youtube.com/playlist?list=PLgOlaPUIbynqRXnEo8gPCRogV9ZLX7lEl
+   - 본 프로젝트를 클론코딩으로 진행하는 이유는 위 강의가 Nest JS 공식문서를 읽어가며 진행하고, 내 실력이 아직 공식문서만으로는 실력 향상과 검증이 어렵다고 판단되어 클론코딩으로 진행한다.
 
 브렌치 전략 >> Git-Flow
 참고 
