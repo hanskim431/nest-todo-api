@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
-
+import { PrismaClient } from '@prisma/client/edge'
+const prisma = new PrismaClient()
 @Injectable()
 export class AppService {
   getHello(): string {
