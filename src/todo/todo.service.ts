@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
+import { Todo } from '@prisma/client';
 import { PrismaService } from 'src/database/prisma.service';
 import { CreateTodoDto } from './dto/create-todo.dto';
 import { UpdateTodoDto } from './dto/update-todo.dto';
-import { Todo } from '@prisma/client';
 @Injectable()
 export class TodoService {
   constructor(private readonly prismaService: PrismaService) {}
