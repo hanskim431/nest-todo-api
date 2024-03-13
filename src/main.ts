@@ -10,10 +10,10 @@ async function bootstrap() {
 
   /** Swagger API 문서화 설정  */
   const config = new DocumentBuilder()
-    .setTitle('Cats example')
-    .setDescription('The cats API description')
-    .setVersion('1.0')
-    .addTag('cats')
+    .setTitle('Nest Todo Api')
+    .setDescription('Nest JS로 만든 TODO API 문서입니다.')
+    .setVersion('1.0.0.a')
+    .addTag('TODO')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);
